@@ -1,0 +1,87 @@
+/* Estilo general del body */
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+/* Estilo del encabezado */
+.encabezado{
+  background-color: #E8F2A1;
+  width: 80%;
+  height: 50px;
+  padding:5px;
+  text-align:center;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  border: 1px solid #00FA9A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.encabezado ul{
+  top: 0px;
+}
+
+.encabezado h1,
+.encabezado p {
+  margin: 0;
+}
+/* Estilo del contenedor principal */
+main{
+   display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  width: 80%;
+}
+/* Estilo compartido para las secciones de navegación y aside */
+.navegacion, .seccion1, .aside1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.navegacion, .aside1 {
+  justify-content: flex-start; 
+  padding-top: 10px; 
+}
+/* Estilo específico para la navegación */
+.navegacion{
+  background-color: #F7D1D5;
+   border-radius: 5%;
+   border: 1px solid #00FA9A;
+   margin: 5px;
+   height: 30vh;
+   width: 42vh;
+}
+/* Estilo específico para la sección de artículos */
+.seccion1{
+  background-color: #FFF5CE;
+   border-radius: 5%;
+   border: 1px solid #00FA9A;
+   margin: 5px;
+   height: 30vh;
+   width: 80vh;
+}
+/* Estilo específico para el aside */
+.aside1{
+  background-color: #DEDCE6;
+   border-radius: 5%;
+   border: 1px solid #00FA9A;
+   margin: 5px;
+   height: 30vh;
+   width: 42vh;
+}
+/* Estilo del pie de página */
+footer{
+  background-color: #B4C7DC;
+  width: 80%;
+  padding:5px;
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid #00FA9A;
+  margin-top: 3px;
+}
