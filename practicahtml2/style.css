@@ -46,7 +46,6 @@ main{
 }
 .navegacion, .aside1 {
   justify-content: flex-start; 
-  padding-top: 10px; 
 }
 /* Estilo específico para la navegación */
 .navegacion{
